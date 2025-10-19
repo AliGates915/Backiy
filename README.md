@@ -34,7 +34,7 @@
 </a>
 </p>
 
-## Visit: **[Pattern Craft](https://patterncraft.fun)**
+## Visit: **[Backify Craft](https://patterncraft.fun)**
 
 ![UI Image](./public/images/readme-img-one.png)
 ![UI Image](./public/images/readme-img-two.png)
@@ -77,7 +77,7 @@ Check out this growing list of shoutouts, showcases, and love from the community
 
 ## Sponsored by <a href="https://vercel.com/oss">Vercel⚡</a>
 
-**This project is proudly powered by <b>Vercel</b>. The platform behind PatternCraft’s blazing-fast deployment and seamless scalability.**<br>
+**This project is proudly powered by <b>Vercel</b>. The platform behind BackifyCraft’s blazing-fast deployment and seamless scalability.**<br>
 
 <i>Big thanks to Vercel for supporting open source and keeping this project running smoothly!</i>
 <br><br>
@@ -134,7 +134,7 @@ npm start
 
 ## How to Use This
 
-1. Visit the live site: **[https://patterncraft.fun](https://pattern-craft.vercel.app/)**
+1. Visit the live site: **[https://patterncraft.fun](https://backify-craft.vercel.app/)**
 2. Browse through the collection of background patterns and gradients.
 3. Click on any pattern to open its preview modal.
 4. Copy the CSS/Tailwind-compatible code snippet.
@@ -147,9 +147,6 @@ These snippets work great for:
 - Cards and sections
 - Background art
 
-## Demo
-
-[Watch the demo video](https://github.com/user-attachments/assets/d414c57b-128b-43f2-8534-352bc93eb801)
 
 ## Customization
 
@@ -220,23 +217,6 @@ Each pattern includes:
 - Responsive implementation
 - Cross-browser compatibility
 
-## Contributing
-
-> **This project is sponsored by Vercel, which helps us maintain a stable development environment.**
-
-We welcome contributions to expand the pattern collection. To add new patterns:
-
-### Adding New Patterns
-
-1. Fork the repository
-2. Create a feature branch:
-
-```bash
-git checkout -b feature/new-pattern-name
-```
-
-3. Navigate to `src/data/patterns.ts`
-4. Add your pattern following the established format:
 
 ```typescript
 {
@@ -308,103 +288,5 @@ git add .
 git commit -m "feat: add new geometric grid pattern"
 git push origin feature/new-pattern-name
 ```
-
-## Development
-
-### Project Structure
-
-```
-pattern-craft/
-src/
-├── app/                   
-│   ├── globals.css       
-│   ├── layout.tsx        
-│   ├── page.tsx           
-│   └── not-found.tsx      
-│
-├── components/           
-│   ├── ui/                # shadcn/ui components
-│   │   ├── badge.tsx     
-│   │   ├── button.tsx     
-│   │   └── tabs.tsx       
-│   ├── layout/            
-│   │   ├── navbar.tsx     
-│   │   └── footer.tsx     
-│   ├── patterns/          
-│   │   ├── pattern-showcase.tsx     
-│   │   ├── pattern-card.tsx        
-│   │   ├── pattern-grid.tsx         
-│   │   └── pattern-empty-state.tsx 
-│   ├── home/             
-│   │   ├── hero.tsx               
-│   │   ├── support-dropdown.tsx   
-│   │   └── return-to-preview.tsx  
-│   └── providers/         
-│       └── theme-provider.tsx 
-│
-├── lib/                   
-│   ├── utils.ts           
-│   └── constants.ts      
-│
-├── hooks/                 
-│   ├── useTheme.tsx       
-│   └── useCopy.tsx        
-│
-├── types/                 
-│   ├── pattern.ts         
-│   └── index.ts           
-│
-├── context/               
-│   └── favourites-context.tsx 
-│
-└── data/                 
-    ├── patterns.ts        # Pattern used in UI (contribute here)
-    └── categories.ts      
-```
-
-### Code Standards
-
-- Use TypeScript for type safety
-- Follow ESLint and Prettier configurations
-- Maintain consistent code formatting
-- Use semantic commit messages
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- Built with Next.js and Tailwind CSS
-- Inspired by modern web design patterns
-- Community-driven pattern collection
-
-## Support
-
-For questions, issues, or suggestions:
-
-- Open an issue on GitHub
-- Check existing issues before creating new ones
-- Provide detailed information for bug reports
-
-## Built By
-
-- Twitter(X): [@meghtrix](https://x.com/meghtrix)
-- Alternate Twitter(X): [@usepatterncraft](https://x.com/usepatterncraft)
-- GitHub: [@megh-bari](https://github.com/megh-bari)
-
-If you like this project, consider giving it a ⭐️ on GitHub and sharing it with others!
-
-## Star History
-
-<a href="https://www.star-history.com/#megh-bari/pattern-craft&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=megh-bari/pattern-craft&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=megh-bari/pattern-craft&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=megh-bari/pattern-craft&type=Date" />
- </picture>
-</a>
-
----
 
 > _**Happy coding!**_
