@@ -1,15 +1,15 @@
 import React from "react";
 
-export const PATTERN_CATEGORIES = [
-  { id: "all", label: "All Patterns" },
-  { id: "gradients", label: "Gradients" },
-  { id: "geometric", label: "Geometric" },
-  { id: "decorative", label: "Decorative" },
-  { id: "effects", label: "Effects" },
-  { id: "favourites", label: "Favourites" },
-];
-
 export default function PatternsPage() {
+  const PATTERN_CATEGORIES = [
+    { id: "all", label: "All Patterns" },
+    { id: "gradients", label: "Gradients" },
+    { id: "geometric", label: "Geometric" },
+    { id: "decorative", label: "Decorative" },
+    { id: "effects", label: "Effects" },
+    { id: "favourites", label: "Favourites" },
+  ];
+
   return (
     <main className="min-h-screen bg-gradient-to-b from-indigo-50 to-white dark:from-gray-900 dark:to-gray-800 p-8">
       <h1 className="text-3xl sm:text-4xl font-bold text-center text-gray-900 dark:text-white mb-10">
